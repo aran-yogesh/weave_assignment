@@ -1,0 +1,26 @@
+# Node
+node_modules/
+frontend/dist/
+frontend/.vercel/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Pipeline intermediates (raw extracts). The committed artifact is
+# frontend/public/data.json — the only thing the frontend needs.
+data/windows/
+data/posthog_prs.jsonl
+data/extract_meta.json
+
+# Playwright verification artifacts
+.playwright-mcp/
+*.png
+
+# OS
+.DS_Store
+
+# Local tooling config
+.claude/
+.vercel/
