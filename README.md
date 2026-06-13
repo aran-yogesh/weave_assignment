@@ -4,6 +4,8 @@ Identifies the **5 most impactful engineers** in
 [`PostHog/posthog`](https://github.com/PostHog/posthog) over the last 90 days,
 for a busy engineering leader.
 
+**🔗 Live demo: https://frontend-six-alpha-95.vercel.app**
+
 ## Thesis: impact = force multiplication
 
 The most impactful engineer isn't the one with the most commits — it's the one
