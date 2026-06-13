@@ -24,3 +24,4 @@ data/extract_meta.json
 # Local tooling config
 .claude/
 .vercel/
+frontend/.vercel.frontend-backup/

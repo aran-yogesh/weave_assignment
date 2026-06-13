@@ -4,10 +4,10 @@
     "since": "2026-03-15",
     "until": "2026-06-13",
     "days": 90,
-    "prs_total": 10938,
-    "prs_merged": 8087,
+    "prs_total": 10944,
+    "prs_merged": 8093,
     "prs_closed_unmerged": 2851,
-    "generated_at": "2026-06-13T13:13:13Z",
+    "generated_at": "2026-06-13T15:26:05Z",
     "active_engineers": 138,
     "weights": {
       "unblocking": 0.3,
@@ -49,10 +49,9 @@
         "closed_unmerged": 11,
         "merge_rate": 0.87,
         "throughput": 71,
-        "ai_authored_pct": 70,
+        "ai_authored_pct": 67,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "GitHub Copilot",
           "PostHog Code"
         ],
@@ -149,9 +148,7 @@
         "merge_rate": 0.94,
         "throughput": 75,
         "ai_authored_pct": 16,
-        "ai_tools": [
-          "Claude Code"
-        ],
+        "ai_tools": [],
         "work_type_mix": {
           "chore": 40,
           "fix": 20,
@@ -224,12 +221,12 @@
       "score": 85.5,
       "metrics": {
         "distinct_unblocked": 47,
-        "reviews_given": 198,
-        "reviews_received": 259,
-        "reciprocity": 0.76,
+        "reviews_given": 199,
+        "reviews_received": 260,
+        "reciprocity": 0.77,
         "substantive_given": 89,
         "substantive_ratio": 0.45,
-        "median_ttfr_hours": 0.8,
+        "median_ttfr_hours": 0.9,
         "involvement_comments": 23
       },
       "percentiles": {
@@ -238,25 +235,24 @@
         "review_depth": 87.6,
         "responsiveness": 89.8,
         "involvement": 95.6,
-        "volume": 97.1
+        "volume": 97.8
       },
       "context": {
-        "authored_total": 552,
-        "merged": 448,
+        "authored_total": 554,
+        "merged": 450,
         "closed_unmerged": 104,
         "merge_rate": 0.81,
-        "throughput": 448,
-        "ai_authored_pct": 98,
+        "throughput": 450,
+        "ai_authored_pct": 97,
         "ai_tools": [
           "Claude Code",
-          "Codex",
           "Cursor",
           "GitHub Copilot",
           "PostHog Code"
         ],
         "work_type_mix": {
           "feat": 190,
-          "fix": 165,
+          "fix": 167,
           "chore": 98,
           "refactor": 52,
           "perf": 31,
@@ -265,7 +261,7 @@
           "test": 3,
           "ci": 1
         },
-        "median_pr_size": 115,
+        "median_pr_size": 114,
         "reverts": [
           {
             "number": 56446,
@@ -329,16 +325,16 @@
           "count": 7
         },
         {
-          "login": "thmsobrmlr",
+          "login": "sampennington",
           "count": 5
         },
         {
-          "login": "Piccirello",
+          "login": "thmsobrmlr",
           "count": 5
         }
       ],
       "rank": 3,
-      "known_for": "Unblocked 47 engineers \u00b7 198 reviews given"
+      "known_for": "Unblocked 47 engineers \u00b7 199 reviews given"
     },
     {
       "login": "rafaeelaudibert",
@@ -369,10 +365,9 @@
         "closed_unmerged": 10,
         "merge_rate": 0.91,
         "throughput": 105,
-        "ai_authored_pct": 57,
+        "ai_authored_pct": 53,
         "ai_tools": [
           "Claude Code",
-          "Codex",
           "Cursor",
           "PostHog Code"
         ],
@@ -467,7 +462,7 @@
         "closed_unmerged": 9,
         "merge_rate": 0.85,
         "throughput": 50,
-        "ai_authored_pct": 20,
+        "ai_authored_pct": 19,
         "ai_tools": [
           "Claude Code"
         ],
@@ -535,100 +530,6 @@
       "known_for": "Unblocked 30 engineers \u00b7 101 reviews given"
     },
     {
-      "login": "rorylshanks",
-      "name": "Rory Shanks",
-      "association": "CONTRIBUTOR",
-      "score": 80.0,
-      "metrics": {
-        "distinct_unblocked": 17,
-        "reviews_given": 89,
-        "reviews_received": 23,
-        "reciprocity": 3.87,
-        "substantive_given": 26,
-        "substantive_ratio": 0.29,
-        "median_ttfr_hours": 2.5,
-        "involvement_comments": 15
-      },
-      "percentiles": {
-        "unblocking": 77.4,
-        "reciprocity": 97.1,
-        "review_depth": 71.5,
-        "responsiveness": 72.3,
-        "involvement": 87.6,
-        "volume": 70.1
-      },
-      "context": {
-        "authored_total": 16,
-        "merged": 13,
-        "closed_unmerged": 3,
-        "merge_rate": 0.81,
-        "throughput": 13,
-        "ai_authored_pct": 62,
-        "ai_tools": [
-          "Codex"
-        ],
-        "work_type_mix": {
-          "feat": 10,
-          "fix": 5,
-          "chore": 1
-        },
-        "median_pr_size": 135,
-        "reverts": []
-      },
-      "reviewed_for": [
-        {
-          "login": "orian",
-          "count": 24
-        },
-        {
-          "login": "matt-metivier",
-          "count": 15
-        },
-        {
-          "login": "bciaraldi",
-          "count": 14
-        },
-        {
-          "login": "benjackwhite",
-          "count": 11
-        },
-        {
-          "login": "robbie-c",
-          "count": 4
-        },
-        {
-          "login": "carlos-marchal-ph",
-          "count": 4
-        },
-        {
-          "login": "andyzzhao",
-          "count": 3
-        },
-        {
-          "login": "lricoy",
-          "count": 2
-        },
-        {
-          "login": "eli-r-ph",
-          "count": 2
-        },
-        {
-          "login": "jose-sequeira",
-          "count": 2
-        },
-        {
-          "login": "sampennington",
-          "count": 2
-        },
-        {
-          "login": "ablaszkiewicz",
-          "count": 1
-        }
-      ],
-      "rank": 6,
-      "known_for": "Unblocked 17 engineers \u00b7 gives 3.87\u00d7 more review than received"
-    },
-    {
       "login": "skoob13",
       "name": "Georgiy Tarasov",
       "association": "CONTRIBUTOR",
@@ -657,12 +558,10 @@
         "closed_unmerged": 26,
         "merge_rate": 0.85,
         "throughput": 153,
-        "ai_authored_pct": 93,
+        "ai_authored_pct": 86,
         "ai_tools": [
           "Claude Code",
-          "Codex",
           "Cursor",
-          "Devin",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -726,7 +625,7 @@
           "count": 4
         }
       ],
-      "rank": 7,
+      "rank": 6,
       "known_for": "Unblocked 32 engineers \u00b7 163 reviews given"
     },
     {
@@ -758,7 +657,7 @@
         "closed_unmerged": 20,
         "merge_rate": 0.82,
         "throughput": 89,
-        "ai_authored_pct": 64,
+        "ai_authored_pct": 62,
         "ai_tools": [
           "Claude Code",
           "Cursor",
@@ -825,8 +724,100 @@
           "count": 4
         }
       ],
-      "rank": 8,
+      "rank": 7,
       "known_for": "Unblocked 29 engineers \u00b7 177 reviews given"
+    },
+    {
+      "login": "rorylshanks",
+      "name": "Rory Shanks",
+      "association": "CONTRIBUTOR",
+      "score": 79.9,
+      "metrics": {
+        "distinct_unblocked": 17,
+        "reviews_given": 89,
+        "reviews_received": 23,
+        "reciprocity": 3.87,
+        "substantive_given": 26,
+        "substantive_ratio": 0.29,
+        "median_ttfr_hours": 2.5,
+        "involvement_comments": 15
+      },
+      "percentiles": {
+        "unblocking": 77.4,
+        "reciprocity": 97.1,
+        "review_depth": 71.5,
+        "responsiveness": 72.3,
+        "involvement": 87.6,
+        "volume": 69.3
+      },
+      "context": {
+        "authored_total": 16,
+        "merged": 13,
+        "closed_unmerged": 3,
+        "merge_rate": 0.81,
+        "throughput": 13,
+        "ai_authored_pct": 62,
+        "ai_tools": [],
+        "work_type_mix": {
+          "feat": 10,
+          "fix": 5,
+          "chore": 1
+        },
+        "median_pr_size": 135,
+        "reverts": []
+      },
+      "reviewed_for": [
+        {
+          "login": "orian",
+          "count": 24
+        },
+        {
+          "login": "matt-metivier",
+          "count": 15
+        },
+        {
+          "login": "bciaraldi",
+          "count": 14
+        },
+        {
+          "login": "benjackwhite",
+          "count": 11
+        },
+        {
+          "login": "robbie-c",
+          "count": 4
+        },
+        {
+          "login": "carlos-marchal-ph",
+          "count": 4
+        },
+        {
+          "login": "andyzzhao",
+          "count": 3
+        },
+        {
+          "login": "lricoy",
+          "count": 2
+        },
+        {
+          "login": "eli-r-ph",
+          "count": 2
+        },
+        {
+          "login": "jose-sequeira",
+          "count": 2
+        },
+        {
+          "login": "sampennington",
+          "count": 2
+        },
+        {
+          "login": "ablaszkiewicz",
+          "count": 1
+        }
+      ],
+      "rank": 8,
+      "known_for": "Unblocked 17 engineers \u00b7 gives 3.87\u00d7 more review than received"
     },
     {
       "login": "Radu-Raicea",
@@ -857,10 +848,8 @@
         "closed_unmerged": 2,
         "merge_rate": 0.92,
         "throughput": 24,
-        "ai_authored_pct": 31,
+        "ai_authored_pct": 27,
         "ai_tools": [
-          "Claude Code",
-          "Codex",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -932,8 +921,8 @@
       "metrics": {
         "distinct_unblocked": 29,
         "reviews_given": 135,
-        "reviews_received": 86,
-        "reciprocity": 1.57,
+        "reviews_received": 87,
+        "reciprocity": 1.55,
         "substantive_given": 28,
         "substantive_ratio": 0.21,
         "median_ttfr_hours": 10.4,
@@ -948,19 +937,18 @@
         "volume": 89.1
       },
       "context": {
-        "authored_total": 422,
-        "merged": 297,
+        "authored_total": 423,
+        "merged": 298,
         "closed_unmerged": 125,
         "merge_rate": 0.7,
-        "throughput": 297,
-        "ai_authored_pct": 93,
+        "throughput": 298,
+        "ai_authored_pct": 90,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
-          "feat": 146,
+          "feat": 147,
           "fix": 137,
           "chore": 88,
           "refactor": 32,
@@ -970,7 +958,7 @@
           "docs": 2,
           "other": 1
         },
-        "median_pr_size": 218,
+        "median_pr_size": 219,
         "reverts": []
       },
       "reviewed_for": [
@@ -1055,11 +1043,9 @@
         "closed_unmerged": 43,
         "merge_rate": 0.75,
         "throughput": 132,
-        "ai_authored_pct": 37,
+        "ai_authored_pct": 29,
         "ai_tools": [
           "Claude Code",
-          "Codex",
-          "Cursor",
           "GitHub Copilot",
           "PostHog Code"
         ],
@@ -1156,11 +1142,8 @@
         "closed_unmerged": 6,
         "merge_rate": 0.94,
         "throughput": 103,
-        "ai_authored_pct": 11,
+        "ai_authored_pct": 4,
         "ai_tools": [
-          "Claude Code",
-          "Cursor",
-          "GitHub Copilot",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -1257,13 +1240,9 @@
         "closed_unmerged": 86,
         "merge_rate": 0.69,
         "throughput": 195,
-        "ai_authored_pct": 73,
+        "ai_authored_pct": 59,
         "ai_tools": [
-          "Claude Code",
-          "Codex",
-          "Cursor",
-          "GitHub Copilot",
-          "PostHog Code"
+          "Claude Code"
         ],
         "work_type_mix": {
           "chore": 109,
@@ -1361,7 +1340,7 @@
         "closed_unmerged": 14,
         "merge_rate": 0.7,
         "throughput": 33,
-        "ai_authored_pct": 49,
+        "ai_authored_pct": 47,
         "ai_tools": [
           "Claude Code",
           "Cursor"
@@ -1457,11 +1436,8 @@
         "closed_unmerged": 10,
         "merge_rate": 0.87,
         "throughput": 68,
-        "ai_authored_pct": 91,
+        "ai_authored_pct": 69,
         "ai_tools": [
-          "Claude Code",
-          "Codex",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -1556,11 +1532,9 @@
         "closed_unmerged": 13,
         "merge_rate": 0.87,
         "throughput": 88,
-        "ai_authored_pct": 19,
+        "ai_authored_pct": 7,
         "ai_tools": [
           "Claude Code",
-          "Codex",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -1655,10 +1629,7 @@
         "merge_rate": 0.92,
         "throughput": 58,
         "ai_authored_pct": 43,
-        "ai_tools": [
-          "Claude Code",
-          "PostHog Code"
-        ],
+        "ai_tools": [],
         "work_type_mix": {
           "fix": 29,
           "feat": 21,
@@ -1750,11 +1721,9 @@
         "closed_unmerged": 5,
         "merge_rate": 0.95,
         "throughput": 88,
-        "ai_authored_pct": 72,
+        "ai_authored_pct": 54,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
-          "GitHub Copilot",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -1848,7 +1817,7 @@
         "closed_unmerged": 0,
         "merge_rate": 1.0,
         "throughput": 15,
-        "ai_authored_pct": 67,
+        "ai_authored_pct": 60,
         "ai_tools": [],
         "work_type_mix": {
           "chore": 9,
@@ -1941,10 +1910,8 @@
         "closed_unmerged": 12,
         "merge_rate": 0.37,
         "throughput": 7,
-        "ai_authored_pct": 5,
-        "ai_tools": [
-          "PostHog Code"
-        ],
+        "ai_authored_pct": 0,
+        "ai_tools": [],
         "work_type_mix": {
           "feat": 13,
           "fix": 3,
@@ -2037,9 +2004,7 @@
         "merge_rate": 0.87,
         "throughput": 53,
         "ai_authored_pct": 2,
-        "ai_tools": [
-          "Claude Code"
-        ],
+        "ai_tools": [],
         "work_type_mix": {
           "chore": 48,
           "feat": 10,
@@ -2110,10 +2075,8 @@
         "closed_unmerged": 15,
         "merge_rate": 0.83,
         "throughput": 73,
-        "ai_authored_pct": 25,
+        "ai_authored_pct": 15,
         "ai_tools": [
-          "Claude Code",
-          "Codex",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -2208,13 +2171,10 @@
         "closed_unmerged": 39,
         "merge_rate": 0.86,
         "throughput": 232,
-        "ai_authored_pct": 66,
+        "ai_authored_pct": 55,
         "ai_tools": [
           "Claude Code",
-          "Codex",
-          "Cursor",
-          "GitHub Copilot",
-          "PostHog Code"
+          "GitHub Copilot"
         ],
         "work_type_mix": {
           "chore": 110,
@@ -2320,7 +2280,7 @@
         "closed_unmerged": 26,
         "merge_rate": 0.74,
         "throughput": 74,
-        "ai_authored_pct": 70,
+        "ai_authored_pct": 68,
         "ai_tools": [
           "Claude Code",
           "Cursor",
@@ -2398,12 +2358,12 @@
       "score": 71.5,
       "metrics": {
         "distinct_unblocked": 33,
-        "reviews_given": 88,
+        "reviews_given": 89,
         "reviews_received": 84,
-        "reciprocity": 1.05,
+        "reciprocity": 1.06,
         "substantive_given": 4,
-        "substantive_ratio": 0.05,
-        "median_ttfr_hours": 3.6,
+        "substantive_ratio": 0.04,
+        "median_ttfr_hours": 3.5,
         "involvement_comments": 9
       },
       "percentiles": {
@@ -2420,11 +2380,9 @@
         "closed_unmerged": 24,
         "merge_rate": 0.82,
         "throughput": 106,
-        "ai_authored_pct": 81,
+        "ai_authored_pct": 76,
         "ai_tools": [
           "Claude Code",
-          "Codex",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -2440,7 +2398,7 @@
       "reviewed_for": [
         {
           "login": "pauldambra",
-          "count": 20
+          "count": 21
         },
         {
           "login": "MattPua",
@@ -2488,7 +2446,7 @@
         }
       ],
       "rank": 25,
-      "known_for": "Unblocked 33 engineers \u00b7 88 reviews given"
+      "known_for": "Unblocked 33 engineers \u00b7 89 reviews given"
     },
     {
       "login": "georgemunyoro",
@@ -2519,11 +2477,9 @@
         "closed_unmerged": 5,
         "merge_rate": 0.9,
         "throughput": 44,
-        "ai_authored_pct": 71,
+        "ai_authored_pct": 67,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
-          "GitHub Copilot",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -2612,21 +2568,20 @@
         "volume": 87.6
       },
       "context": {
-        "authored_total": 268,
-        "merged": 213,
+        "authored_total": 269,
+        "merged": 214,
         "closed_unmerged": 55,
-        "merge_rate": 0.79,
-        "throughput": 213,
-        "ai_authored_pct": 72,
+        "merge_rate": 0.8,
+        "throughput": 214,
+        "ai_authored_pct": 58,
         "ai_tools": [
           "Claude Code",
-          "Codex",
           "Cursor",
           "GitHub Copilot",
           "PostHog Code"
         ],
         "work_type_mix": {
-          "feat": 164,
+          "feat": 165,
           "fix": 58,
           "chore": 40,
           "other": 3,
@@ -2634,7 +2589,7 @@
           "revert": 1,
           "refactor": 1
         },
-        "median_pr_size": 219,
+        "median_pr_size": 226,
         "reverts": []
       },
       "reviewed_for": [
@@ -2719,10 +2674,9 @@
         "closed_unmerged": 33,
         "merge_rate": 0.67,
         "throughput": 66,
-        "ai_authored_pct": 33,
+        "ai_authored_pct": 27,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "GitHub Copilot"
         ],
         "work_type_mix": {
@@ -2816,10 +2770,9 @@
         "closed_unmerged": 13,
         "merge_rate": 0.95,
         "throughput": 240,
-        "ai_authored_pct": 75,
+        "ai_authored_pct": 74,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "GitHub Copilot",
           "PostHog Code"
         ],
@@ -2914,7 +2867,7 @@
         "closed_unmerged": 47,
         "merge_rate": 0.62,
         "throughput": 76,
-        "ai_authored_pct": 80,
+        "ai_authored_pct": 70,
         "ai_tools": [
           "Claude Code",
           "Cursor",
@@ -3012,9 +2965,7 @@
         "merge_rate": 0.88,
         "throughput": 69,
         "ai_authored_pct": 31,
-        "ai_tools": [
-          "Claude Code"
-        ],
+        "ai_tools": [],
         "work_type_mix": {
           "feat": 32,
           "fix": 24,
@@ -3096,7 +3047,7 @@
         "closed_unmerged": 8,
         "merge_rate": 0.86,
         "throughput": 51,
-        "ai_authored_pct": 25,
+        "ai_authored_pct": 20,
         "ai_tools": [
           "Claude Code"
         ],
@@ -3190,12 +3141,8 @@
         "closed_unmerged": 7,
         "merge_rate": 0.93,
         "throughput": 98,
-        "ai_authored_pct": 69,
-        "ai_tools": [
-          "Claude Code",
-          "Codex",
-          "PostHog Code"
-        ],
+        "ai_authored_pct": 58,
+        "ai_tools": [],
         "work_type_mix": {
           "feat": 45,
           "fix": 40,
@@ -3287,7 +3234,7 @@
         "closed_unmerged": 6,
         "merge_rate": 0.8,
         "throughput": 24,
-        "ai_authored_pct": 33,
+        "ai_authored_pct": 30,
         "ai_tools": [
           "Claude Code"
         ],
@@ -3378,11 +3325,9 @@
         "closed_unmerged": 38,
         "merge_rate": 0.77,
         "throughput": 127,
-        "ai_authored_pct": 73,
+        "ai_authored_pct": 65,
         "ai_tools": [
           "Claude Code",
-          "Codex",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -3481,10 +3426,9 @@
         "closed_unmerged": 36,
         "merge_rate": 0.79,
         "throughput": 137,
-        "ai_authored_pct": 94,
+        "ai_authored_pct": 91,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -3595,11 +3539,9 @@
         "closed_unmerged": 4,
         "merge_rate": 0.96,
         "throughput": 91,
-        "ai_authored_pct": 54,
+        "ai_authored_pct": 41,
         "ai_tools": [
           "Claude Code",
-          "Codex",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -3696,11 +3638,8 @@
         "closed_unmerged": 14,
         "merge_rate": 0.83,
         "throughput": 70,
-        "ai_authored_pct": 50,
-        "ai_tools": [
-          "Claude Code",
-          "Cursor"
-        ],
+        "ai_authored_pct": 39,
+        "ai_tools": [],
         "work_type_mix": {
           "feat": 62,
           "fix": 11,
@@ -3792,10 +3731,9 @@
         "closed_unmerged": 44,
         "merge_rate": 0.72,
         "throughput": 114,
-        "ai_authored_pct": 54,
+        "ai_authored_pct": 53,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -3890,11 +3828,9 @@
         "closed_unmerged": 33,
         "merge_rate": 0.71,
         "throughput": 82,
-        "ai_authored_pct": 89,
+        "ai_authored_pct": 74,
         "ai_tools": [
           "Claude Code",
-          "Codex",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -3983,11 +3919,8 @@
         "closed_unmerged": 12,
         "merge_rate": 0.84,
         "throughput": 65,
-        "ai_authored_pct": 91,
+        "ai_authored_pct": 83,
         "ai_tools": [
-          "Claude Code",
-          "Cursor",
-          "GitHub Copilot",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -4082,9 +4015,7 @@
         "merge_rate": 0.93,
         "throughput": 53,
         "ai_authored_pct": 49,
-        "ai_tools": [
-          "Claude Code"
-        ],
+        "ai_tools": [],
         "work_type_mix": {
           "feat": 32,
           "fix": 25
@@ -4174,7 +4105,7 @@
         "closed_unmerged": 11,
         "merge_rate": 0.88,
         "throughput": 78,
-        "ai_authored_pct": 71,
+        "ai_authored_pct": 67,
         "ai_tools": [
           "Claude Code",
           "PostHog Code"
@@ -4269,7 +4200,7 @@
         "closed_unmerged": 9,
         "merge_rate": 0.87,
         "throughput": 62,
-        "ai_authored_pct": 92,
+        "ai_authored_pct": 80,
         "ai_tools": [
           "Claude Code",
           "Cursor",
@@ -4363,10 +4294,9 @@
         "closed_unmerged": 22,
         "merge_rate": 0.8,
         "throughput": 88,
-        "ai_authored_pct": 55,
+        "ai_authored_pct": 51,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -4461,10 +4391,9 @@
         "closed_unmerged": 14,
         "merge_rate": 0.85,
         "throughput": 80,
-        "ai_authored_pct": 64,
+        "ai_authored_pct": 60,
         "ai_tools": [
           "Claude Code",
-          "Codex",
           "Cursor",
           "PostHog Code"
         ],
@@ -4559,10 +4488,9 @@
         "closed_unmerged": 6,
         "merge_rate": 0.9,
         "throughput": 54,
-        "ai_authored_pct": 52,
+        "ai_authored_pct": 50,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -4640,9 +4568,8 @@
         "closed_unmerged": 36,
         "merge_rate": 0.8,
         "throughput": 145,
-        "ai_authored_pct": 58,
+        "ai_authored_pct": 43,
         "ai_tools": [
-          "Claude Code",
           "Cursor",
           "PostHog Code"
         ],
@@ -4741,10 +4668,8 @@
         "closed_unmerged": 23,
         "merge_rate": 0.76,
         "throughput": 73,
-        "ai_authored_pct": 16,
+        "ai_authored_pct": 5,
         "ai_tools": [
-          "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -4935,7 +4860,7 @@
         "closed_unmerged": 37,
         "merge_rate": 0.63,
         "throughput": 64,
-        "ai_authored_pct": 76,
+        "ai_authored_pct": 52,
         "ai_tools": [
           "Claude Code",
           "Cursor",
@@ -5035,10 +4960,8 @@
         "closed_unmerged": 2,
         "merge_rate": 0.96,
         "throughput": 44,
-        "ai_authored_pct": 78,
+        "ai_authored_pct": 35,
         "ai_tools": [
-          "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -5106,10 +5029,9 @@
         "closed_unmerged": 17,
         "merge_rate": 0.83,
         "throughput": 86,
-        "ai_authored_pct": 30,
+        "ai_authored_pct": 28,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -5203,7 +5125,7 @@
         "closed_unmerged": 3,
         "merge_rate": 0.88,
         "throughput": 23,
-        "ai_authored_pct": 65,
+        "ai_authored_pct": 58,
         "ai_tools": [
           "Claude Code"
         ],
@@ -5389,10 +5311,9 @@
         "closed_unmerged": 17,
         "merge_rate": 0.76,
         "throughput": 54,
-        "ai_authored_pct": 41,
+        "ai_authored_pct": 37,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -5489,7 +5410,6 @@
         "throughput": 35,
         "ai_authored_pct": 40,
         "ai_tools": [
-          "Claude Code",
           "Cursor",
           "GitHub Copilot",
           "PostHog Code"
@@ -5588,11 +5508,8 @@
         "closed_unmerged": 4,
         "merge_rate": 0.97,
         "throughput": 118,
-        "ai_authored_pct": 26,
-        "ai_tools": [
-          "Claude Code",
-          "Cursor"
-        ],
+        "ai_authored_pct": 22,
+        "ai_tools": [],
         "work_type_mix": {
           "feat": 53,
           "fix": 49,
@@ -5684,11 +5601,9 @@
         "closed_unmerged": 28,
         "merge_rate": 0.77,
         "throughput": 92,
-        "ai_authored_pct": 79,
+        "ai_authored_pct": 69,
         "ai_tools": [
           "Claude Code",
-          "Codex",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -5787,7 +5702,6 @@
         "throughput": 29,
         "ai_authored_pct": 9,
         "ai_tools": [
-          "Claude Code",
           "GitHub Copilot",
           "PostHog Code"
         ],
@@ -5851,10 +5765,8 @@
         "closed_unmerged": 3,
         "merge_rate": 0.94,
         "throughput": 45,
-        "ai_authored_pct": 19,
+        "ai_authored_pct": 10,
         "ai_tools": [
-          "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -5919,7 +5831,7 @@
         "closed_unmerged": 16,
         "merge_rate": 0.81,
         "throughput": 67,
-        "ai_authored_pct": 88,
+        "ai_authored_pct": 82,
         "ai_tools": [
           "Claude Code",
           "Cursor",
@@ -6006,10 +5918,9 @@
         "closed_unmerged": 2,
         "merge_rate": 0.97,
         "throughput": 78,
-        "ai_authored_pct": 58,
+        "ai_authored_pct": 55,
         "ai_tools": [
-          "Claude Code",
-          "Cursor"
+          "Claude Code"
         ],
         "work_type_mix": {
           "fix": 41,
@@ -6155,9 +6066,7 @@
         "merge_rate": 0.92,
         "throughput": 83,
         "ai_authored_pct": 53,
-        "ai_tools": [
-          "Cursor"
-        ],
+        "ai_tools": [],
         "work_type_mix": {
           "chore": 46,
           "feat": 23,
@@ -6327,7 +6236,7 @@
         "closed_unmerged": 21,
         "merge_rate": 0.76,
         "throughput": 67,
-        "ai_authored_pct": 88,
+        "ai_authored_pct": 86,
         "ai_tools": [
           "Claude Code",
           "PostHog Code"
@@ -6415,10 +6324,8 @@
         "closed_unmerged": 11,
         "merge_rate": 0.93,
         "throughput": 136,
-        "ai_authored_pct": 12,
+        "ai_authored_pct": 8,
         "ai_tools": [
-          "Claude Code",
-          "Cursor",
           "GitHub Copilot",
           "PostHog Code"
         ],
@@ -6474,7 +6381,7 @@
       "login": "meikelmosby",
       "name": "Meikel Ratz",
       "association": "COLLABORATOR",
-      "score": 53.5,
+      "score": 53.4,
       "metrics": {
         "distinct_unblocked": 9,
         "reviews_given": 89,
@@ -6491,7 +6398,7 @@
         "review_depth": 67.9,
         "responsiveness": 32.1,
         "involvement": 0.0,
-        "volume": 70.1
+        "volume": 69.3
       },
       "context": {
         "authored_total": 70,
@@ -6585,10 +6492,9 @@
         "closed_unmerged": 18,
         "merge_rate": 0.8,
         "throughput": 72,
-        "ai_authored_pct": 64,
+        "ai_authored_pct": 49,
         "ai_tools": [
           "Claude Code",
-          "Codex",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -6666,10 +6572,9 @@
         "closed_unmerged": 4,
         "merge_rate": 0.82,
         "throughput": 18,
-        "ai_authored_pct": 82,
+        "ai_authored_pct": 73,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -6742,10 +6647,8 @@
         "closed_unmerged": 3,
         "merge_rate": 0.92,
         "throughput": 36,
-        "ai_authored_pct": 13,
+        "ai_authored_pct": 8,
         "ai_tools": [
-          "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -6901,9 +6804,7 @@
         "merge_rate": 0.86,
         "throughput": 6,
         "ai_authored_pct": 43,
-        "ai_tools": [
-          "Claude Code"
-        ],
+        "ai_tools": [],
         "work_type_mix": {
           "feat": 4,
           "chore": 2,
@@ -6962,10 +6863,9 @@
         "closed_unmerged": 20,
         "merge_rate": 0.82,
         "throughput": 92,
-        "ai_authored_pct": 16,
+        "ai_authored_pct": 12,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -7032,9 +6932,8 @@
         "closed_unmerged": 14,
         "merge_rate": 0.75,
         "throughput": 43,
-        "ai_authored_pct": 40,
+        "ai_authored_pct": 33,
         "ai_tools": [
-          "Claude Code",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -7126,10 +7025,7 @@
         "merge_rate": 0.88,
         "throughput": 45,
         "ai_authored_pct": 31,
-        "ai_tools": [
-          "Claude Code",
-          "Cursor"
-        ],
+        "ai_tools": [],
         "work_type_mix": {
           "fix": 25,
           "feat": 21,
@@ -7196,7 +7092,6 @@
         "throughput": 5,
         "ai_authored_pct": 40,
         "ai_tools": [
-          "Claude Code",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -7321,10 +7216,8 @@
         "closed_unmerged": 3,
         "merge_rate": 0.96,
         "throughput": 68,
-        "ai_authored_pct": 31,
+        "ai_authored_pct": 28,
         "ai_tools": [
-          "Claude Code",
-          "Cursor",
           "GitHub Copilot",
           "PostHog Code"
         ],
@@ -7395,7 +7288,7 @@
         "closed_unmerged": 20,
         "merge_rate": 0.31,
         "throughput": 9,
-        "ai_authored_pct": 55,
+        "ai_authored_pct": 41,
         "ai_tools": [
           "Claude Code",
           "Cursor",
@@ -7468,10 +7361,9 @@
         "closed_unmerged": 19,
         "merge_rate": 0.78,
         "throughput": 67,
-        "ai_authored_pct": 86,
+        "ai_authored_pct": 84,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "GitHub Copilot",
           "PostHog Code"
         ],
@@ -7567,11 +7459,8 @@
         "closed_unmerged": 9,
         "merge_rate": 0.88,
         "throughput": 69,
-        "ai_authored_pct": 38,
-        "ai_tools": [
-          "Claude Code",
-          "Cursor"
-        ],
+        "ai_authored_pct": 37,
+        "ai_tools": [],
         "work_type_mix": {
           "feat": 34,
           "fix": 25,
@@ -7637,7 +7526,6 @@
         "throughput": 17,
         "ai_authored_pct": 100,
         "ai_tools": [
-          "Claude Code",
           "Cursor"
         ],
         "work_type_mix": {
@@ -7704,11 +7592,9 @@
         "closed_unmerged": 24,
         "merge_rate": 0.83,
         "throughput": 116,
-        "ai_authored_pct": 99,
+        "ai_authored_pct": 98,
         "ai_tools": [
           "Claude Code",
-          "Codex",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -7791,11 +7677,8 @@
         "closed_unmerged": 1,
         "merge_rate": 0.94,
         "throughput": 16,
-        "ai_authored_pct": 76,
+        "ai_authored_pct": 47,
         "ai_tools": [
-          "Claude Code",
-          "Codex",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -7843,7 +7726,7 @@
       "login": "bciaraldi",
       "name": "Bryan Ciaraldi",
       "association": "CONTRIBUTOR",
-      "score": 44.6,
+      "score": 44.7,
       "metrics": {
         "distinct_unblocked": 8,
         "reviews_given": 22,
@@ -7857,7 +7740,7 @@
       "percentiles": {
         "unblocking": 48.2,
         "reciprocity": 47.4,
-        "review_depth": 33.6,
+        "review_depth": 34.3,
         "responsiveness": 76.6,
         "involvement": 0.0,
         "volume": 40.9
@@ -7868,10 +7751,8 @@
         "closed_unmerged": 2,
         "merge_rate": 0.88,
         "throughput": 15,
-        "ai_authored_pct": 24,
-        "ai_tools": [
-          "Claude Code"
-        ],
+        "ai_authored_pct": 12,
+        "ai_tools": [],
         "work_type_mix": {
           "fix": 14,
           "feat": 2,
@@ -7946,10 +7827,9 @@
         "closed_unmerged": 24,
         "merge_rate": 0.66,
         "throughput": 46,
-        "ai_authored_pct": 54,
+        "ai_authored_pct": 34,
         "ai_tools": [
           "Claude Code",
-          "Codex",
           "Cursor",
           "PostHog Code"
         ],
@@ -8032,7 +7912,7 @@
         "closed_unmerged": 0,
         "merge_rate": 1.0,
         "throughput": 24,
-        "ai_authored_pct": 54,
+        "ai_authored_pct": 42,
         "ai_tools": [
           "Claude Code"
         ],
@@ -8151,7 +8031,7 @@
       "login": "carlos-marchal-ph",
       "name": "Carlos Marchal",
       "association": "CONTRIBUTOR",
-      "score": 41.0,
+      "score": 41.1,
       "metrics": {
         "distinct_unblocked": 13,
         "reviews_given": 49,
@@ -8164,7 +8044,7 @@
       },
       "percentiles": {
         "unblocking": 63.5,
-        "reciprocity": 27.7,
+        "reciprocity": 28.5,
         "review_depth": 56.2,
         "responsiveness": 17.5,
         "involvement": 0.0,
@@ -8176,9 +8056,8 @@
         "closed_unmerged": 8,
         "merge_rate": 0.88,
         "throughput": 56,
-        "ai_authored_pct": 69,
+        "ai_authored_pct": 56,
         "ai_tools": [
-          "Claude Code",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -8319,9 +8198,8 @@
         "closed_unmerged": 0,
         "merge_rate": 1.0,
         "throughput": 7,
-        "ai_authored_pct": 57,
+        "ai_authored_pct": 43,
         "ai_tools": [
-          "Codex",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -8386,10 +8264,8 @@
         "closed_unmerged": 47,
         "merge_rate": 0.04,
         "throughput": 2,
-        "ai_authored_pct": 2,
-        "ai_tools": [
-          "Codex"
-        ],
+        "ai_authored_pct": 0,
+        "ai_tools": [],
         "work_type_mix": {
           "feat": 33,
           "chore": 8,
@@ -8458,10 +8334,9 @@
         "closed_unmerged": 6,
         "merge_rate": 0.67,
         "throughput": 12,
-        "ai_authored_pct": 72,
+        "ai_authored_pct": 50,
         "ai_tools": [
           "Claude Code",
-          "Codex",
           "GitHub Copilot",
           "PostHog Code"
         ],
@@ -8524,9 +8399,8 @@
         "closed_unmerged": 4,
         "merge_rate": 0.71,
         "throughput": 10,
-        "ai_authored_pct": 57,
+        "ai_authored_pct": 29,
         "ai_tools": [
-          "Claude Code",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -8598,10 +8472,9 @@
         "closed_unmerged": 1,
         "merge_rate": 0.93,
         "throughput": 14,
-        "ai_authored_pct": 93,
+        "ai_authored_pct": 87,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "GitHub Copilot",
           "PostHog Code"
         ],
@@ -8661,9 +8534,7 @@
         "throughput": 16,
         "ai_authored_pct": 91,
         "ai_tools": [
-          "Claude Code",
-          "Codex",
-          "Cursor"
+          "Claude Code"
         ],
         "work_type_mix": {
           "feat": 8,
@@ -8722,7 +8593,6 @@
         "throughput": 10,
         "ai_authored_pct": 92,
         "ai_tools": [
-          "Claude Code",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -8791,7 +8661,7 @@
         "closed_unmerged": 3,
         "merge_rate": 0.79,
         "throughput": 11,
-        "ai_authored_pct": 86,
+        "ai_authored_pct": 71,
         "ai_tools": [
           "Claude Code",
           "PostHog Code"
@@ -8885,12 +8755,12 @@
       "login": "fuziontech",
       "name": "James Greenhill",
       "association": "MEMBER",
-      "score": 33.4,
+      "score": 33.3,
       "metrics": {
         "distinct_unblocked": 5,
         "reviews_given": 9,
-        "reviews_received": 25,
-        "reciprocity": 0.36,
+        "reviews_received": 26,
+        "reciprocity": 0.35,
         "substantive_given": 0,
         "substantive_ratio": 0.0,
         "median_ttfr_hours": 0.2,
@@ -8898,26 +8768,24 @@
       },
       "percentiles": {
         "unblocking": 33.6,
-        "reciprocity": 28.5,
+        "reciprocity": 27.7,
         "review_depth": 0.0,
         "responsiveness": 97.8,
         "involvement": 0.0,
         "volume": 29.9
       },
       "context": {
-        "authored_total": 30,
-        "merged": 23,
+        "authored_total": 31,
+        "merged": 24,
         "closed_unmerged": 7,
         "merge_rate": 0.77,
-        "throughput": 23,
-        "ai_authored_pct": 93,
+        "throughput": 24,
+        "ai_authored_pct": 90,
         "ai_tools": [
-          "Claude Code",
-          "Cursor",
-          "GitHub Copilot"
+          "Claude Code"
         ],
         "work_type_mix": {
-          "fix": 16,
+          "fix": 17,
           "feat": 7,
           "chore": 3,
           "refactor": 1,
@@ -8925,7 +8793,7 @@
           "perf": 1,
           "other": 1
         },
-        "median_pr_size": 91,
+        "median_pr_size": 98,
         "reverts": [
           {
             "number": 62217,
@@ -8989,10 +8857,9 @@
         "closed_unmerged": 9,
         "merge_rate": 0.81,
         "throughput": 39,
-        "ai_authored_pct": 100,
+        "ai_authored_pct": 98,
         "ai_tools": [
           "Claude Code",
-          "Codex",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -9040,10 +8907,9 @@
         "closed_unmerged": 29,
         "merge_rate": 0.56,
         "throughput": 37,
-        "ai_authored_pct": 71,
+        "ai_authored_pct": 67,
         "ai_tools": [
-          "Claude Code",
-          "Cursor"
+          "Claude Code"
         ],
         "work_type_mix": {
           "feat": 27,
@@ -9206,10 +9072,8 @@
         "closed_unmerged": 4,
         "merge_rate": 0.6,
         "throughput": 6,
-        "ai_authored_pct": 90,
+        "ai_authored_pct": 80,
         "ai_tools": [
-          "Claude Code",
-          "Codex",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -9265,7 +9129,6 @@
         "ai_authored_pct": 100,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -9318,7 +9181,6 @@
         "throughput": 6,
         "ai_authored_pct": 100,
         "ai_tools": [
-          "Claude Code",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -9369,7 +9231,6 @@
         "ai_authored_pct": 38,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -9420,8 +9281,6 @@
         "ai_authored_pct": 86,
         "ai_tools": [
           "Claude Code",
-          "Codex",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -9576,9 +9435,8 @@
         "closed_unmerged": 5,
         "merge_rate": 0.79,
         "throughput": 19,
-        "ai_authored_pct": 62,
+        "ai_authored_pct": 50,
         "ai_tools": [
-          "Claude Code",
           "GitHub Copilot",
           "PostHog Code"
         ],
@@ -9635,8 +9493,6 @@
         "ai_authored_pct": 56,
         "ai_tools": [
           "Claude Code",
-          "Codex",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -9873,7 +9729,6 @@
         "ai_authored_pct": 100,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -9959,7 +9814,6 @@
         "throughput": 5,
         "ai_authored_pct": 100,
         "ai_tools": [
-          "Claude Code",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -10003,9 +9857,7 @@
         "merge_rate": 0.0,
         "throughput": 0,
         "ai_authored_pct": 100,
-        "ai_tools": [
-          "GitHub Copilot"
-        ],
+        "ai_tools": [],
         "work_type_mix": {
           "fix": 3
         },
@@ -10091,10 +9943,8 @@
         "closed_unmerged": 2,
         "merge_rate": 0.33,
         "throughput": 1,
-        "ai_authored_pct": 33,
-        "ai_tools": [
-          "Cursor"
-        ],
+        "ai_authored_pct": 0,
+        "ai_tools": [],
         "work_type_mix": {
           "fix": 1,
           "other": 1,
@@ -10226,10 +10076,9 @@
         "closed_unmerged": 11,
         "merge_rate": 0.48,
         "throughput": 10,
-        "ai_authored_pct": 100,
+        "ai_authored_pct": 86,
         "ai_tools": [
           "Claude Code",
-          "Codex",
           "Cursor",
           "PostHog Code"
         ],
@@ -10277,7 +10126,6 @@
         "ai_authored_pct": 100,
         "ai_tools": [
           "Claude Code",
-          "Cursor",
           "PostHog Code"
         ],
         "work_type_mix": {
@@ -10321,9 +10169,7 @@
         "merge_rate": 0.2,
         "throughput": 1,
         "ai_authored_pct": 40,
-        "ai_tools": [
-          "Claude Code"
-        ],
+        "ai_tools": [],
         "work_type_mix": {
           "fix": 5
         },
@@ -10363,10 +10209,8 @@
         "closed_unmerged": 2,
         "merge_rate": 0.71,
         "throughput": 5,
-        "ai_authored_pct": 57,
-        "ai_tools": [
-          "Claude Code"
-        ],
+        "ai_authored_pct": 43,
+        "ai_tools": [],
         "work_type_mix": {
           "fix": 6,
           "feat": 1
@@ -10407,10 +10251,9 @@
         "closed_unmerged": 4,
         "merge_rate": 0.2,
         "throughput": 1,
-        "ai_authored_pct": 100,
+        "ai_authored_pct": 40,
         "ai_tools": [
-          "Claude Code",
-          "Codex"
+          "Claude Code"
         ],
         "work_type_mix": {
           "fix": 3,
@@ -10452,10 +10295,8 @@
         "closed_unmerged": 13,
         "merge_rate": 0.19,
         "throughput": 3,
-        "ai_authored_pct": 62,
-        "ai_tools": [
-          "Claude Code"
-        ],
+        "ai_authored_pct": 56,
+        "ai_tools": [],
         "work_type_mix": {
           "fix": 16
         },
@@ -10495,10 +10336,8 @@
         "closed_unmerged": 0,
         "merge_rate": 1.0,
         "throughput": 8,
-        "ai_authored_pct": 25,
-        "ai_tools": [
-          "Claude Code"
-        ],
+        "ai_authored_pct": 0,
+        "ai_tools": [],
         "work_type_mix": {
           "feat": 4,
           "fix": 3,
@@ -10540,10 +10379,9 @@
         "closed_unmerged": 6,
         "merge_rate": 0.25,
         "throughput": 2,
-        "ai_authored_pct": 100,
+        "ai_authored_pct": 88,
         "ai_tools": [
-          "Claude Code",
-          "Cursor"
+          "Claude Code"
         ],
         "work_type_mix": {
           "fix": 4,
@@ -10631,10 +10469,8 @@
         "closed_unmerged": 2,
         "merge_rate": 0.33,
         "throughput": 1,
-        "ai_authored_pct": 33,
-        "ai_tools": [
-          "Cursor"
-        ],
+        "ai_authored_pct": 0,
+        "ai_tools": [],
         "work_type_mix": {
           "other": 1,
           "fix": 1,
@@ -10712,7 +10548,7 @@
     {
       "login": "pauldambra",
       "name": "Paul D'Ambra",
-      "size": 115,
+      "size": 114,
       "score": 85.5,
       "rank": 3,
       "is_top5": true
@@ -10734,25 +10570,25 @@
       "is_top5": true
     },
     {
-      "login": "rorylshanks",
-      "name": "Rory Shanks",
-      "size": 135,
-      "score": 80.0,
-      "rank": 6,
-      "is_top5": false
-    },
-    {
       "login": "skoob13",
       "name": "Georgiy Tarasov",
       "size": 182,
       "score": 80.0,
-      "rank": 7,
+      "rank": 6,
       "is_top5": false
     },
     {
       "login": "joshsny",
       "name": "Joshua Snyder",
       "size": 96,
+      "score": 79.9,
+      "rank": 7,
+      "is_top5": false
+    },
+    {
+      "login": "rorylshanks",
+      "name": "Rory Shanks",
+      "size": 135,
       "score": 79.9,
       "rank": 8,
       "is_top5": false
@@ -10768,7 +10604,7 @@
     {
       "login": "sampennington",
       "name": "Sam Pennington",
-      "size": 218,
+      "size": 219,
       "score": 78.7,
       "rank": 10,
       "is_top5": false
@@ -10904,7 +10740,7 @@
     {
       "login": "andrewm4894",
       "name": "Andrew Maguire",
-      "size": 219,
+      "size": 226,
       "score": 71.2,
       "rank": 27,
       "is_top5": false
@@ -11241,7 +11077,7 @@
       "login": "meikelmosby",
       "name": "Meikel Ratz",
       "size": 165,
-      "score": 53.5,
+      "score": 53.4,
       "rank": 69,
       "is_top5": false
     },
@@ -11385,7 +11221,7 @@
       "login": "bciaraldi",
       "name": "Bryan Ciaraldi",
       "size": 46,
-      "score": 44.6,
+      "score": 44.7,
       "rank": 87,
       "is_top5": false
     },
@@ -11417,7 +11253,7 @@
       "login": "carlos-marchal-ph",
       "name": "Carlos Marchal",
       "size": 195,
-      "score": 41.0,
+      "score": 41.1,
       "rank": 91,
       "is_top5": false
     },
@@ -11504,8 +11340,8 @@
     {
       "login": "fuziontech",
       "name": "James Greenhill",
-      "size": 91,
-      "score": 33.4,
+      "size": 98,
+      "score": 33.3,
       "rank": 102,
       "is_top5": false
     },
@@ -11802,15 +11638,15 @@
     "areas": [
       {
         "dir": "posthog",
-        "pr_count": 2958
+        "pr_count": 2959
       },
       {
         "dir": "frontend",
-        "pr_count": 2784
+        "pr_count": 2786
       },
       {
         "dir": "products",
-        "pr_count": 2728
+        "pr_count": 2731
       },
       {
         "dir": "services",

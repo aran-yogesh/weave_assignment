@@ -112,10 +112,14 @@ def _work_type(title: str) -> str | None:
 def transform(pr: dict) -> dict:
     """Turn a raw GraphQL PR node into a flat, analysis-ready record."""
     paths = [f["path"] for f in pr["files"]["nodes"]]
-    commit_bodies = [c["commit"]["messageBody"] for c in pr["commits"]["nodes"]]
-    for c in pr["commits"]["nodes"]:
-        for a in c["commit"]["authors"]["nodes"]:
-            commit_bodies.append(a.get("name", ""))
+    # Commit message bodies carry the trailers; co-author name+email are the
+    # structured identities GitHub parses from `Co-authored-by` lines.
+    commit_messages = [c["commit"]["messageBody"] for c in pr["commits"]["nodes"]]
+    commit_authors = [
+        f"{a.get('name', '')} {a.get('email', '')}"
+        for c in pr["commits"]["nodes"]
+        for a in c["commit"]["authors"]["nodes"]
+    ]
 
     status_nodes = pr["statusCommit"]["nodes"]
     ci = None
@@ -154,7 +158,7 @@ def transform(pr: dict) -> dict:
         "closes_issues": pr["closingIssuesReferences"]["totalCount"],
         "commits": pr["commits"]["totalCount"],
         "labels": [l["name"] for l in pr["labels"]["nodes"]],
-        "ai_authoring": detect_ai_authoring(pr["bodyText"], commit_bodies),
+        "ai_authoring": detect_ai_authoring(pr["bodyText"], commit_messages, commit_authors),
     }
 
 

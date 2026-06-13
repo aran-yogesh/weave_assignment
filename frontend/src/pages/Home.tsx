@@ -97,6 +97,11 @@ export function Home() {
             Reviews and files are fetched with a cap (first 30), so the most heavily-reviewed PRs may slightly undercount review
             and comment volume.
           </p>
+          <p style={{ marginTop: 6, fontSize: "0.74rem", color: "var(--text-dim)" }}>
+            AI-leverage counts only PRs carrying an explicit AI co-author / generation trailer (e.g. <code>Co-Authored-By: Claude</code>,
+            <code> Generated-By: PostHog Code</code>) or PostHog’s agent-context block — tool names are matched on those structured
+            signals, not free text, so a mention of “cursor” in prose is never counted.
+          </p>
         </div>
       </div>
 
